@@ -10,13 +10,13 @@ Referensi Program Ujian Labor Teknik Informatika UPI YPTK Padang (*Hanya Untuk R
 
 ## Screenshot
 ### Home
-![Home](https://github.com/fattakbar/pretest-ujian-labor-if/blob/master/screenshoot/1.png)
+![Home](https://github.com/fattakbar/pretest-ujian-labor-if/blob/master/screenshot/1.png)
 
 ### Data Obat
-![Data Obat](https://github.com/fattakbar/pretest-ujian-labor-if/blob/master/screenshoot/2.png)
+![Data Obat](https://github.com/fattakbar/pretest-ujian-labor-if/blob/master/screenshot/2.png)
 
 ### Data Transaksi
-![Data Transaksi](https://github.com/fattakbar/pretest-ujian-labor-if/blob/master/screenshoot/3.png)
+![Data Transaksi](https://github.com/fattakbar/pretest-ujian-labor-if/blob/master/screenshot/3.png)
 
 ---
 
