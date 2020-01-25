@@ -12,7 +12,6 @@
 <body style="padding: 8px;">
 
 
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.php">Apotik XYZ</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -49,6 +48,12 @@ if (isset($_GET['page'])) {
         include "obat/obatupdate.php";
     } else if ($_GET['page'] == "obatdelete") {
         include "obat/obatdelete.php";
+    } else if ($_GET['page'] == "transaksi") {
+        include "transaksi/transaksi.php";
+    } else if ($_GET['page'] == "transaksiadd") {
+        include "transaksi/transaksiadd.php";
+    } else if ($_GET['page'] == "transaksidelete") {
+        include "transaksi/transaksidelete.php";
     } else {
         include "home.php";
     }
