@@ -24,7 +24,7 @@
             <td><?php echo $row['kdobat'] ?></td>
             <td><?php echo $row['nmobat'] ?></td>
             <td><?php echo $row['jnsobat'] ?></td>
-            <td><?php echo $row['hrgobat'] ?></td>
+            <td><?php echo rupiah($row['hrgobat']) ?></td>
             <td><?php echo $row['stokobat'] ?></td>
             <td>
                 <a href="?page=obatupdate&kdobat=<?php echo $row['kdobat'] ?>" class="btn btn-warning">Edit</a>

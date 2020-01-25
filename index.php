@@ -38,6 +38,7 @@
 <?php
 
 include "config/connection.php";
+include "config/helper.php";
 
 if (isset($_GET['page'])) {
     if ($_GET['page'] == "obat") {

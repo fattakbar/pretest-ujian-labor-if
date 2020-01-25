@@ -64,7 +64,8 @@ if (isset($_POST['simpan'])) {
 
     if ($query) {
         echo "Data Berhasil Disimpan";
-        header("Location: ?page=obat");
+        echo '<META HTTP-EQUIV="Refresh" Content="0; URL=?page=obat">';
+        exit;
     } else {
         echo "Data Gagal Disimpan";
     }
