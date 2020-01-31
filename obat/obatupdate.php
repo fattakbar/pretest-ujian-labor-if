@@ -20,21 +20,13 @@ $rowGetObat = mysqli_fetch_array($queryGetObat);
         <div class="form-group">
             <label for="jnsobat">Jenis Obat</label>
             <select class="form-control" id="jnsobat" name="jnsobat" required>
-                <option <?php if ($rowGetObat['jnsobat'] == "" || null) {
-                    echo "selected";
-                } ?> value="">- Pilih Jenis Obat -
+                <option <?php echo $rowGetObat['jnsobat'] == '' || null ? 'selected' : ''; ?> value="">- Pilih Jenis Obat -
                 </option>
-                <option <?php if ($rowGetObat['jnsobat'] == "Obat Ringan") {
-                    echo "selected";
-                } ?> value="Obat Ringan">Obat Ringan
+                <option <?php echo $rowGetObat['jnsobat'] == 'Obat Ringan' ? 'selected' : ''; ?> value="Obat Ringan">Obat Ringan
                 </option>
-                <option <?php if ($rowGetObat['jnsobat'] == "Obat Sedang") {
-                    echo "selected";
-                } ?> value="Obat Sedang">Obat Sedang
+                <option <?php echo $rowGetObat['jnsobat'] == 'Obat Sedang' ? 'selected' : ''; ?> value="Obat Sedang">Obat Sedang
                 </option>
-                <option <?php if ($rowGetObat['jnsobat'] == "Obat Keras") {
-                    echo "selected";
-                } ?> value="Obat Keras">Obat Keras
+                <option <?php echo $rowGetObat['jnsobat'] == 'Obat Keras' ? 'selected' : ''; ?> value="Obat Keras">Obat Keras
                 </option>
             </select>
         </div>
